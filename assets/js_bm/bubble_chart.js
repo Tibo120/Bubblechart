@@ -206,10 +206,10 @@ var sorgenalterCenters = { // Center locations of the bubbles.
   };
 
   var sorgenalterTitleX = { // X locations of the year titles.
-    'Hat keine Sorgen': 100,
-    'Hat eher keine Sorgen': 400,
-    'Hat eher Sorgen ': 700,
-    'Hat Sorgen': 1000
+    'Hat Sorgen, Jung': 100,
+    'Hat keine Sorgen, Jung': 400,
+    'Hat Sorgen, Alt ': 700,
+    'Hat keine Sorgen, Alt': 1000
   };    
   
   var sorgengeschlechtCenters = { // Center locations of the bubbles.
@@ -221,10 +221,10 @@ var sorgenalterCenters = { // Center locations of the bubbles.
   };
 
   var sorgengeschlechtTitleX = { // X locations of the year titles.
-    'Hat Sorgen Jung': 100,
-    'Hat keine Sorgen Jung': 400,
-    'Hat Sorgen Alt ': 670,
-    'Hat keine Sorgen Alt': 850,
+    'Hat Sorgen, Männlich': 100,
+    'Hat keine Sorgen, Mänlich': 400,
+    'Hat Sorgen, Weiblich ': 670,
+    'Hat keine Sorgen, Weiblich': 850,
     'sonst': 1050
   };    
 //* ------------------------------------------------------------------
