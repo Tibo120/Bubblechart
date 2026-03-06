@@ -87,7 +87,7 @@ function bubbleChart() {
 var yearCenters = { // Center locations of the bubbles.
     
     2021: { x: 280, y: height / 2 },
-    2022: { x: 400, y: height / 2 },
+    2022: { x: 450, y: height / 2 },
     2023: { x: 600, y: height / 2 },
     2024: { x: 680, y: height / 2 },
     2025: { x: 750, y: height / 2 },
@@ -100,8 +100,8 @@ var yearCenters = { // Center locations of the bubbles.
     '2021': 110,
     '2022': 380,
     '2023': 580,
-      '2024': 750,
-      '2025': 750,
+    '2024': 750,
+    '2025': 750,
     '2026': 950
   };
     
@@ -113,7 +113,7 @@ var agecatCenters = { // Center locations of the bubbles.
     2: { x: 280, y: height / 2 },
     3: { x: 400, y: height / 1.9 },
     4: { x: 520, y: height / 2 },
-    5: { x: 680, y: height / 2 },
+    5: { x: 640, y: height / 2 },
     6: { x: 810, y: height / 2 }
   };
 
@@ -176,10 +176,10 @@ var sorgenCenters = { // Center locations of the bubbles.
   };
 
   var sorgenTitleX = { // X locations of the year titles.
-    'Mache mir Sorgen um meine Daten': 100,
-    'Mache mir eher Sorgen': 400,
-    'Mache mir eher keine Sorgen': 700,
-    'Mache mir keine Sorgen um meine Daten': 1000
+    'Sorgen um meine Daten': 100,
+    'Eher Sorgen um meine Daten': 400,
+    'Eher keine Sorgen um meine Daten': 650,
+    'Keine Sorgen um meine Daten': 1000
   };
     //Sechster Button: Griffweite
  
@@ -191,10 +191,10 @@ var griffweiteCenters = { // Center locations of the bubbles.
   };
 
   var griffweiteTitleX = { // X locations of the year titles.
-    'Hat Handy beim Schlafen immer in Griffweite': 100,
-    'Hat Handy beim Schlafen eher in Griffweite': 400,
-    'Hat Handy beim Schlafen eher nicht in Griffweite ': 700,
-    'Hat Handy beim Schlafen nicht in Griffweite': 1000
+    'Beim Schlafen immer in Griffweite': 120,
+    'Beim Schlafen eher in Griffweite': 400,
+    'Beim Schlafen eher nicht in Griffweite ': 700,
+    'Beim Schlafen nicht in Griffweite': 950
   };    
     //Siebter Button: Griffweite
  
@@ -222,10 +222,10 @@ var sorgenalterCenters = { // Center locations of the bubbles.
 
   var sorgengeschlechtTitleX = { // X locations of the year titles.
     'Hat Sorgen, Männlich': 100,
-    'Hat keine Sorgen, Mänlich': 400,
+    'Hat keine Sorgen, Männlich': 400,
     'Hat Sorgen, Weiblich ': 670,
     'Hat keine Sorgen, Weiblich': 850,
-    'sonst': 1050
+    'Sonst': 1030
   };    
 //* ------------------------------------------------------------------
 //
@@ -913,7 +913,7 @@ function moveToAgecat(alpha) {
 
   var fillColor = d3.scale.ordinal()
     .domain(['1','2','3', '4','5','6'])
-    .range(['#F7CAD0', '#ff006e', '#48CAE4', '#0096C7','#023E8A','#03045E']);
+    .range(['#F7CAD0', '# #00FF00', '#48CAE4', '#0096C7','#023E8A','#03045E']);
 
   /* Tooltip-Funktion*/
   function showDetail(d) {
